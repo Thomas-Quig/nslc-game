@@ -69,11 +69,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public class AdvancedSettings
         {
             public float groundCheckDistance = 0.01f; // distance for checking if the controller is grounded ( 0.01f seems to work best for this )
-            public float stickToGroundHelperDistance = 0.5f; // stops the character
-            public float slowDownRate = 20f; // rate at which the controller comes to a stop when there is no input
+            public float stickToGroundHelperDistance = 0.9f; // stops the character
+            public float slowDownRate = 100f; // rate at which the controller comes to a stop when there is no input
             public bool airControl; // can the user control the direction that is being moved in the air
             [Tooltip("set it to 0.1 or more if you get stuck in wall")]
-            public float shellOffset; //reduce the radius by that ratio to avoid getting stuck in wall (a value of 0.1f is nice)
+			public float shellOffset = 0.1f; //reduce the radius by that ratio to avoid getting stuck in wall (a value of 0.1f is nice)
         }
 
 
@@ -141,7 +141,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             GroundCheck();
             Vector2 input = GetInput();
-
+			if (m_IsGrounded) 
+			{
+				if (CrossPlatformInputManager.GetAxis ("Horizontal") == 0 && CrossPlatformInputManager.GetAxis ("Vertical") == 0)
+				{
+					m_RigidBody.velocity = m_RigidBody.velocity * 0.5f;
+					Debug.Log (m_RigidBody.velocity);
+				}
+			}
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && (advancedSettings.airControl || m_IsGrounded))
             {
                 // always move along the camera forward as it is the direction that it being aimed at
@@ -156,6 +163,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     m_RigidBody.AddForce(desiredMove*SlopeMultiplier(), ForceMode.Impulse);
                 }
+
             }
 
             if (m_IsGrounded)
@@ -178,6 +186,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     m_RigidBody.Sleep();
                 }
+					
             }
             else
             {
