@@ -46,8 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RigidbodyFPSWalker.cs" />
-     <Compile Include="Assets\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Scripts\CharacterManager.cs" />
+     <Compile Include="Assets\Scripts\RigidbodyFPSWalker.cs" />
+     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.UI">

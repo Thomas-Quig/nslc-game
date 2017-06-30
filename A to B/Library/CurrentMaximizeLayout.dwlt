@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 2871
+  controlID: 11225
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 2872
+  controlID: 11226
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,9 +183,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10, y: 10, z: 10}
+    m_Target: {x: 24.959177, y: -11.684645, z: 20.32892}
     speed: 2
-    m_Value: {x: -10, y: 10, z: 10}
+    m_Value: {x: 24.959177, y: -11.684645, z: 20.32892}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -208,13 +208,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0806632, y: 0.9188216, z: -0.28876185, w: 0.25666508}
+    m_Target: {x: -0.20777377, y: -0.35513395, z: 0.08128145, w: -0.9078014}
     speed: 2
-    m_Value: {x: 0.0806632, y: 0.9188216, z: -0.28876185, w: 0.25666508}
+    m_Value: {x: -0.20777376, y: -0.35513395, z: 0.08128145, w: -0.90780133}
   m_Size:
-    m_Target: 22
+    m_Target: 50.821083
     speed: 2
-    m_Value: 22
+    m_Value: 50.821083
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -305,7 +305,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e8fbffff00000000
+    m_ExpandedIDs: 2839feffb0d6feffe8fbffff000000008c2600009c260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -381,8 +381,7 @@ MonoBehaviour:
     height: 648
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames:
-    - Material
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -390,18 +389,19 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/Sprites
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts
+  - Assets/Sprites
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/student/Desktop/A to B/A to B
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 01ca9a3b
-    m_LastClickedID: 1000000001
+    m_SelectedIDs: cc3e0000
+    m_LastClickedID: 16076
     m_ExpandedIDs: 00000000f2240000682500006e250000f625000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -455,8 +455,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 4622feff
+    m_LastClickedInstanceID: -122298
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0c0500000e05000046050000b21c000000000000
     m_RenameOverlay:
@@ -483,7 +483,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_DirectoriesAreaWidth: 110
 --- !u!114 &11
 MonoBehaviour:
