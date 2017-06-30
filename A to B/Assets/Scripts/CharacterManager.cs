@@ -13,12 +13,14 @@ public class CharacterManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.Mouse0)) {
-			image.gameObject.SetActive(true);
-			Time.timeScale = slowRatio;
-		} else if(Input.GetKeyUp(KeyCode.Mouse0)) {
-			Time.timeScale = 1.0f;
-			image.gameObject.SetActive(false);
+		if (!GameManager.isPaused ()) {
+			if (Input.GetKey (KeyCode.Mouse0)) {
+				image.gameObject.SetActive (true);
+				Time.timeScale = slowRatio;
+			} else if (Input.GetKeyUp (KeyCode.Mouse0)) {
+				Time.timeScale = 1.0f;
+				image.gameObject.SetActive (false);
+			}
 		}
 	}
 }

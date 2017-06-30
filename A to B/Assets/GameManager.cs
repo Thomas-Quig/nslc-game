@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject inGameMenu;
 	public GameObject pauseMenu;
-	private bool paused;
+	public static bool paused;
 	// Use this for initialization
 	void Start () {
 		paused = false;
@@ -27,7 +27,13 @@ public class GameManager : MonoBehaviour {
 			Time.timeScale = 1.0f;
 			pauseMenu.gameObject.SetActive (false);
 			inGameMenu.gameObject.SetActive (true);
+			Cursor.lockState = CursorLockMode.Locked; 
 		}
 
+	}
+
+	public static bool isPaused()
+	{
+		return paused;
 	}
 }
