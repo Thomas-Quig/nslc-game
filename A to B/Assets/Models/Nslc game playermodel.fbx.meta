@@ -145,6 +145,9 @@ ModelImporter:
     7400004: Armature|junk
     7400006: Armature|midair
     7400008: Armature|Run
+    7400010: Armature|Run backwards
+    7400012: Armature|strafe left
+    7400014: Armature|strafe right
     9500000: //RootNode
     13700000: Cube
   materials:

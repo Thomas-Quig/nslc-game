@@ -16,7 +16,7 @@ public class CharacterManager : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Mouse0)) {
 			image.gameObject.SetActive(true);
 			Time.timeScale = slowRatio;
-		} else {
+		} else if(Input.GetKeyUp(KeyCode.Mouse0)) {
 			Time.timeScale = 1.0f;
 			image.gameObject.SetActive(false);
 		}
