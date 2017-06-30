@@ -62,6 +62,10 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 			grounded = true;  
 			canJump = true;
 		}
+		else 
+		{
+			rigid.velocity = new Vector3 (rigid.velocity.x * -0.1f, rigid.velocity.y, rigid.velocity.z * -0.1f);
+		}
 
 	}
 
