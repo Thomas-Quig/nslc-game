@@ -30,7 +30,7 @@ public class SmoothMouseLook : MonoBehaviour
 
 	void Update()
 	{
-		if (!GameManager.isPaused()) {
+		if (!WorldManager.isPaused()) {
 			// Ensure the cursor is always locked when set
 			if (lockCursor)
 			{

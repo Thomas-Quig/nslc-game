@@ -84,8 +84,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RigidbodyFPSWalker.cs" />
-    <Compile Include="Assets\SmoothMouseLook.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Scripts\AnimationManager.cs" />
+    <Compile Include="Assets\Scripts\CharacterManager.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyFPSWalker.cs" />
+    <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Scripts\WorldManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

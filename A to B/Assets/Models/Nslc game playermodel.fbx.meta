@@ -149,6 +149,7 @@ ModelImporter:
     7400012: Armature|strafe left
     7400014: Armature|strafe right
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Cube
   materials:
     importMaterials: 1
@@ -172,7 +173,1647 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump
+      takeName: Armature|Jump
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|junk
+      takeName: Armature|junk
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|midair
+      takeName: Armature|midair
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run backwards
+      takeName: Armature|Run backwards
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|strafe left
+      takeName: Armature|strafe left
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|strafe right
+      takeName: Armature|strafe right
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hip
+        weight: 1
+      - path: Armature/hip/lower torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/neck/head/head_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f1 p1/f1 p2/f1 p3/f1 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f2 p1/f2 p2/f2 p3/f2 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f3 p1/f3 p2/f3 p3/f3 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/f4 p1/f4 p2/f4 p3/f4 p3_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder/upper arm/lower arm/upper
+          hand/lower hand/thumb 1/thumb 2/thumb 2_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f1 p1.001/f1 p2.001/f1 p3.001/f1 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f2 p1.001/f2 p2.001/f2 p3.001/f2 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f3 p1.001/f3 p2.001/f3 p3.001/f3 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/f4 p1.001/f4 p2.001/f4 p3.001/f4 p3.001_end
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001
+        weight: 1
+      - path: Armature/hip/lower torso/upper torso/shoulder.001/upper arm.001/lower
+          arm.001/upper hand.001/lower hand.001/thumb 1.001/thumb 2.001/thumb 2.001_end
+        weight: 1
+      - path: Armature/hip/upper leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe
+        weight: 1
+      - path: Armature/hip/upper leg/lower leg/foot/toe/toe_end
+        weight: 1
+      - path: Armature/hip/upper leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001
+        weight: 1
+      - path: Armature/hip/upper leg.001/lower leg.001/foot.001/toe.001/toe.001_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -211,10 +1852,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

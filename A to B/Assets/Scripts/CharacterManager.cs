@@ -13,7 +13,7 @@ public class CharacterManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!GameManager.isPaused ()) {
+		if (!WorldManager.isPaused ()) {
 			if (Input.GetKey (KeyCode.Mouse0)) {
 				image.gameObject.SetActive (true);
 				Time.timeScale = slowRatio;
