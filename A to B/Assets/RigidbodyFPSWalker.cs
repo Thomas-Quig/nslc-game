@@ -55,9 +55,14 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		grounded = false;
 	}
 
-	void OnCollisionStay () {
-		grounded = true;  
-		canJump = true;
+	void OnCollisionEnter (Collision collision) {
+		Vector3 normal = collision.contacts [0].normal;
+		Vector3 vel = rigid.velocity;
+		if (Vector3.Angle (vel, normal) > 60) {
+			grounded = true;  
+			canJump = true;
+		}
+
 	}
 
 	float CalculateJumpVerticalSpeed () {
