@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: b3ffb231f14c242f1b03a0c40788401b
+timeCreated: 1498794923
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cube
+    100004: f1 p1
+    100006: f1 p1.001
+    100008: f1 p2
+    100010: f1 p2.001
+    100012: f1 p3
+    100014: f1 p3.001
+    100016: f1 p3.001_end
+    100018: f1 p3_end
+    100020: f2 p1
+    100022: f2 p1.001
+    100024: f2 p2
+    100026: f2 p2.001
+    100028: f2 p3
+    100030: f2 p3.001
+    100032: f2 p3.001_end
+    100034: f2 p3_end
+    100036: f3 p1
+    100038: f3 p1.001
+    100040: f3 p2
+    100042: f3 p2.001
+    100044: f3 p3
+    100046: f3 p3.001
+    100048: f3 p3.001_end
+    100050: f3 p3_end
+    100052: f4 p1
+    100054: f4 p1.001
+    100056: f4 p2
+    100058: f4 p2.001
+    100060: f4 p3
+    100062: f4 p3.001
+    100064: f4 p3.001_end
+    100066: f4 p3_end
+    100068: foot
+    100070: foot.001
+    100072: head
+    100074: head_end
+    100076: hip
+    100078: lower arm
+    100080: lower arm.001
+    100082: lower hand
+    100084: lower hand.001
+    100086: lower leg
+    100088: lower leg.001
+    100090: lower torso
+    100092: neck
+    100094: //RootNode
+    100096: shoulder
+    100098: shoulder.001
+    100100: thumb 1
+    100102: thumb 1.001
+    100104: thumb 2
+    100106: thumb 2.001
+    100108: thumb 2.001_end
+    100110: thumb 2_end
+    100112: toe
+    100114: toe.001
+    100116: toe.001_end
+    100118: toe_end
+    100120: upper arm
+    100122: upper arm.001
+    100124: upper hand
+    100126: upper hand.001
+    100128: upper leg
+    100130: upper leg.001
+    100132: upper torso
+    400000: Armature
+    400002: Cube
+    400004: f1 p1
+    400006: f1 p1.001
+    400008: f1 p2
+    400010: f1 p2.001
+    400012: f1 p3
+    400014: f1 p3.001
+    400016: f1 p3.001_end
+    400018: f1 p3_end
+    400020: f2 p1
+    400022: f2 p1.001
+    400024: f2 p2
+    400026: f2 p2.001
+    400028: f2 p3
+    400030: f2 p3.001
+    400032: f2 p3.001_end
+    400034: f2 p3_end
+    400036: f3 p1
+    400038: f3 p1.001
+    400040: f3 p2
+    400042: f3 p2.001
+    400044: f3 p3
+    400046: f3 p3.001
+    400048: f3 p3.001_end
+    400050: f3 p3_end
+    400052: f4 p1
+    400054: f4 p1.001
+    400056: f4 p2
+    400058: f4 p2.001
+    400060: f4 p3
+    400062: f4 p3.001
+    400064: f4 p3.001_end
+    400066: f4 p3_end
+    400068: foot
+    400070: foot.001
+    400072: head
+    400074: head_end
+    400076: hip
+    400078: lower arm
+    400080: lower arm.001
+    400082: lower hand
+    400084: lower hand.001
+    400086: lower leg
+    400088: lower leg.001
+    400090: lower torso
+    400092: neck
+    400094: //RootNode
+    400096: shoulder
+    400098: shoulder.001
+    400100: thumb 1
+    400102: thumb 1.001
+    400104: thumb 2
+    400106: thumb 2.001
+    400108: thumb 2.001_end
+    400110: thumb 2_end
+    400112: toe
+    400114: toe.001
+    400116: toe.001_end
+    400118: toe_end
+    400120: upper arm
+    400122: upper arm.001
+    400124: upper hand
+    400126: upper hand.001
+    400128: upper leg
+    400130: upper leg.001
+    400132: upper torso
+    4300000: Cube
+    7400000: Armature|Idle
+    7400002: Armature|Jump
+    7400004: Armature|junk
+    7400006: Armature|midair
+    7400008: Armature|Run
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
