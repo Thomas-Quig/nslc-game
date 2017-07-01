@@ -1,10 +1,10 @@
-﻿<Properties StartupItem="A To B.Plugins.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameManager.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WorldManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\RigidbodyFPSWalker.cs" Line="71" Column="2" />
-      <File FileName="Assets\Scripts\CharacterManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CharacterManager.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/WorldManager.cs" Line="23" Column="21" />
+      <File FileName="Assets/Scripts/RigidbodyFPSWalker.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
