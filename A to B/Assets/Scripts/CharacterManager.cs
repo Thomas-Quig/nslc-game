@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CharacterManager : MonoBehaviour {
 	public float slowRatio;
 	public Image image;
+    public Vector3 spawnPosition;
 	// Use this for initialization
 	void Start () {
 		
@@ -26,7 +27,7 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 		if (transform.position.y < -30) {
-			transform.position = new Vector3 (0, 5, 0);
+			transform.position = spawnPosition;
 		}
 			
 	}

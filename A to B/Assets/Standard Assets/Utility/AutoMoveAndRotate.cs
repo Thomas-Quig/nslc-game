@@ -16,6 +16,12 @@ namespace UnityStandardAssets.Utility
             m_LastRealTime = Time.realtimeSinceStartup;
         }
 
+        private void Awake()
+        {
+            Debug.Log("test");
+            m_LastRealTime = Time.realtimeSinceStartup;
+        }
+
 
         // Update is called once per frame
         private void Update()

@@ -64,7 +64,6 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		}
 		else 
 		{
-            Debug.Log("Test");
 			rigid.velocity = new Vector3 (rigid.velocity.x * -0.5f, rigid.velocity.y, rigid.velocity.z * -0.5f);
 		}
 
