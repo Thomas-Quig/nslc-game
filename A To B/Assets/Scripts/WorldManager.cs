@@ -50,7 +50,7 @@ public class WorldManager : MonoBehaviour {
 		SceneManager.LoadScene (statLevels [pos % statLevels.Length]);
 	}
 
-	public static void goToLevel (string name)
+	public void goToLevel (string name)
 	{
 		SceneManager.LoadScene (name);
 	}
