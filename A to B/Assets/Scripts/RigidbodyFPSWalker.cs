@@ -11,7 +11,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	public float maxVelocityChange = 10.0f;
 	public bool canJump = true;
 	public float jumpHeight = 2.0f;
-	private bool grounded = false;
+	public bool grounded = false;
 	public bool airMovement;
 	public float shiftMultiplier;
 	public Rigidbody rigid;
@@ -55,7 +55,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		grounded = false;
 	}
 
-	void OnCollisionEnter (Collision collision) {
+	void OnCollisionStay (Collision collision) {
 		Vector3 normal = collision.contacts [0].normal;
 		Vector3 vel = rigid.velocity;
 		if (Vector3.Angle (vel, normal) > 60) {
@@ -64,7 +64,8 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		}
 		else 
 		{
-			rigid.velocity = new Vector3 (rigid.velocity.x * -0.1f, rigid.velocity.y, rigid.velocity.z * -0.1f);
+            Debug.Log("Test");
+			rigid.velocity = new Vector3 (rigid.velocity.x * -0.5f, rigid.velocity.y, rigid.velocity.z * -0.5f);
 		}
 
 	}

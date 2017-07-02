@@ -10,7 +10,7 @@ public class WorldManager : MonoBehaviour {
 	public string[] levels;
 	public static string[] statLevels;
 	public static int currentLevel;
-	private bool paused;
+	public bool paused;
 	public static bool pausedStat;
 
 	// Use this for initialization
@@ -44,7 +44,11 @@ public class WorldManager : MonoBehaviour {
 			
 
 	}
-		
+    public void setPause(bool state)
+    {
+        paused = state;
+        pausedStat = state;
+    }
 	public static void goToLevel(int pos)
 	{
 		SceneManager.LoadScene (statLevels [pos % statLevels.Length]);
