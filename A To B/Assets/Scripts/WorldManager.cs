@@ -26,18 +26,24 @@ public class WorldManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (pausedStat != paused)
+        {
+            paused = pausedStat;
+        }
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			paused = !paused;
 			pausedStat = !pausedStat;
 			if (paused) {
 				Time.timeScale = 0.0f;
+                Cursor.lockState = CursorLockMode.None;
 				pauseMenu.gameObject.SetActive (true);
 				inGameMenu.gameObject.SetActive (false);
 			} 
 			else 
 			{
 				Time.timeScale = 1.0f;
-				pauseMenu.gameObject.SetActive (false);
+                Cursor.lockState = CursorLockMode.Locked;
+                pauseMenu.gameObject.SetActive (false);
 				inGameMenu.gameObject.SetActive (true);
 			}
 		}
@@ -49,7 +55,11 @@ public class WorldManager : MonoBehaviour {
         paused = state;
         pausedStat = state;
     }
-	public static void goToLevel(int pos)
+    public static void setPauseStat(bool state)
+    {
+        pausedStat = state;
+    }
+    public static void goToLevel(int pos)
 	{
 		SceneManager.LoadScene (statLevels [pos % statLevels.Length]);
 	}
@@ -59,7 +69,7 @@ public class WorldManager : MonoBehaviour {
 		SceneManager.LoadScene (name);
 	}
 
-	public static void nextLevel()
+	public void nextLevel()
 	{
 		currentLevel++;
 		SceneManager.LoadScene (statLevels[currentLevel % statLevels.Length]);

@@ -7,9 +7,12 @@ public class CharacterManager : MonoBehaviour {
 	public float slowRatio;
 	public Image image;
     public Vector3 spawnPosition;
+    public float startTime;
+    public float levelTime;
+    public Canvas endCanvas;
 	// Use this for initialization
 	void Start () {
-		
+        startTime = Time.time;
 	}
 	
 	// Update is called once per frame
@@ -26,7 +29,7 @@ public class CharacterManager : MonoBehaviour {
 				image.gameObject.SetActive (false);
 			}
 		}
-		if (transform.position.y < -30) {
+		if (transform.position.y < -30 || GetComponent<Rigidbody>().velocity.y < -25){
 			transform.position = spawnPosition;
 		}
 			
@@ -36,13 +39,23 @@ public class CharacterManager : MonoBehaviour {
 	{
 		if(col.gameObject.tag.Equals("FinishPad"))
 		{
-			WorldManager.nextLevel ();
+            levelTime = Time.time - startTime;
+            endCanvas.gameObject.SetActive(true);
+            transform.position = new Vector3(0f, 200f, 0);
+            transform.rotation = Quaternion.Euler(new Vector3(90, 0, 0));
+            Cursor.lockState = CursorLockMode.None;
+            Debug.Log(levelTime);
+            TextManager.updateText("" + levelTime);
+            WorldManager.setPauseStat(true);
+            Time.timeScale = 0f;
 		}
 			
 	}
 
     public void RestartLevel()
     {
+        startTime = Time.time;
         transform.position = spawnPosition;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
     }
 }

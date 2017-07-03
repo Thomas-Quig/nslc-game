@@ -12,7 +12,7 @@ public class FilterManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.E))
+		if(Input.GetKeyDown(KeyCode.E) || Input.GetAxisRaw("Grain") != 0f)
         {
             GetComponent<Image>().enabled = !GetComponent<Image>().enabled;
         }
