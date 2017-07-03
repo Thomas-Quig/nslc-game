@@ -18,7 +18,6 @@ namespace UnityStandardAssets.Utility
 
         private void Awake()
         {
-            Debug.Log("test");
             m_LastRealTime = Time.realtimeSinceStartup;
         }
 

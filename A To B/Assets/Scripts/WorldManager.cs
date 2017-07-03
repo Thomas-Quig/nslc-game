@@ -74,4 +74,9 @@ public class WorldManager : MonoBehaviour {
 	{
 		currentLevel = lev % statLevels.Length;
 	}
+
+    public void setTimeScale(float f)
+    {
+        Time.timeScale = f;
+    }
 }

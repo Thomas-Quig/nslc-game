@@ -33,6 +33,10 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 			} else {
 				targetVelocity *= speed;
 			}
+            if (Input.GetKey(KeyCode.Mouse1))
+            {
+                canJump = true;
+            }
 
 			// Apply a force that attempts to reach our target velocity
 			Vector3 velocity = rigid.velocity;
@@ -55,17 +59,16 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		grounded = false;
 	}
 
-	void OnCollisionStay (Collision collision) {
-		Vector3 normal = collision.contacts [0].normal;
-		Vector3 vel = rigid.velocity;
-		if (Vector3.Angle (vel, normal) > 60) {
-			grounded = true;  
-			canJump = true;
-		}
-		else 
-		{
-			rigid.velocity = new Vector3 (rigid.velocity.x * -0.5f, rigid.velocity.y, rigid.velocity.z * -0.5f);
-		}
+	void OnCollisionStay () {
+        if (!Physics.Raycast(transform.position, Vector3.down, 2f))
+        {
+            rigid.velocity = new Vector3(rigid.velocity.x * -1f, rigid.velocity.y, rigid.velocity.z * -1f);
+        }
+        else
+        {
+            grounded = true;
+            canJump = true;
+        }
 
 	}
 
