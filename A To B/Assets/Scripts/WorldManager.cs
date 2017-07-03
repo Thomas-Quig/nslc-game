@@ -79,4 +79,9 @@ public class WorldManager : MonoBehaviour {
     {
         Time.timeScale = f;
     }
+
+    public void endGame()
+    {
+        Application.Quit();
+    }
 }
