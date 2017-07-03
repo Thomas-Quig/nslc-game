@@ -41,4 +41,9 @@ public class CharacterManager : MonoBehaviour {
 		}
 			
 	}
+
+    public void RestartLevel()
+    {
+        transform.position = spawnPosition;
+    }
 }
