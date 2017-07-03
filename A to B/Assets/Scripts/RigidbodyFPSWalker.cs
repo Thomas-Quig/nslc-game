@@ -48,7 +48,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 			rigid.AddForce(velocityChange, ForceMode.VelocityChange);
 
 			// Jump
-			if (canJump && Input.GetButton("Jump")) {
+			if (canJump && Input.GetButton("Jump")|| (canJump &&Input.GetAxis("Jump") != 0f)) {
 				rigid.velocity = new Vector3(velocity.x, CalculateJumpVerticalSpeed(), velocity.z);
 				canJump = false;
 			}
@@ -76,7 +76,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	float CalculateJumpVerticalSpeed () {
 		// From the jump height and gravity we deduce the upwards speed 
 		// for the character to reach at the apex.
-		if (Input.GetKey(KeyCode.LeftShift)) {
+		if (Input.GetKey(KeyCode.LeftShift) || Input.GetAxis("Sprint") != 0f) {
 			return (Mathf.Sqrt (2 * jumpHeight * gravity * shiftMultiplier));
 		} else {
 			return Mathf.Sqrt (2 * jumpHeight * gravity);

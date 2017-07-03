@@ -15,13 +15,13 @@ public class CharacterManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!WorldManager.isPaused()) {
-			if (Input.GetKey(KeyCode.Mouse0)) {
+			if (Input.GetKey(KeyCode.Mouse0) || Input.GetAxis("Slow Time") != 0f)
+            {
 				Time.timeScale = slowRatio;
-				Debug.Log (Time.timeScale);
 				image.gameObject.SetActive (true);
 
 			}
-			else if (Input.GetKeyUp (KeyCode.Mouse0)) {
+			else if (Input.GetKeyUp (KeyCode.Mouse0) || Input.GetAxis("Slow Time") == 0f) {
 				Time.timeScale = 1.0f;
 				image.gameObject.SetActive (false);
 			}
@@ -34,7 +34,6 @@ public class CharacterManager : MonoBehaviour {
 
 	public void OnTriggerEnter(Collider col)
 	{
-		Debug.Log ("ENTER");
 		if(col.gameObject.tag.Equals("FinishPad"))
 		{
 			WorldManager.nextLevel ();
