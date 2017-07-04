@@ -36,7 +36,7 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 		if (transform.position.y < -30 || GetComponent<Rigidbody>().velocity.y < -25){
-			transform.position = spawnPosition;
+            RestartLevel();
 		}
 	    if(Input.GetKeyDown(KeyCode.R))
         {
@@ -65,7 +65,7 @@ public class CharacterManager : MonoBehaviour {
             {
                 gold.gameObject.SetActive(true);
             }
-            TextManager.updateText("" + levelTime);
+            TextManager.updateText("" + System.Math.Round(levelTime, 2));
             WorldManager.setPauseStat(true);
             Time.timeScale = 0f;
 		}
