@@ -27,7 +27,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
         if (Mathf.Abs(rigid.velocity.y) < 0.2f && Mathf.Abs(rigid.velocity.y) > 0 && !grounded)
         {
             grounded = true;
-            if(Physics.Raycast(transform.position, Vector3.down, 3f))
+            if(Physics.Raycast(transform.position, Vector3.down, 0.5f))
             canJump = true;
         }
         if (grounded || (!grounded && airMovement)) {

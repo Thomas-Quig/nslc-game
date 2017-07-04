@@ -22,7 +22,19 @@ public class WorldManager : MonoBehaviour {
 			{
 				currentLevel = 1;
 			}
-	}
+        else if (SceneManager.GetActiveScene().name.Equals("Level 2"))
+        {
+            currentLevel = 2;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("Level 3"))
+        {
+            currentLevel = 3;
+        }
+        else if(SceneManager.GetActiveScene().name.Equals("Level 4"))
+			{
+				currentLevel = 4;
+			}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -72,6 +84,7 @@ public class WorldManager : MonoBehaviour {
 	public void nextLevel()
 	{
 		currentLevel++;
+        Debug.Log(currentLevel);
 		SceneManager.LoadScene (statLevels[currentLevel % statLevels.Length]);
 	}
 
