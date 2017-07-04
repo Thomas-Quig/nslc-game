@@ -57,5 +57,6 @@ public class CharacterManager : MonoBehaviour {
         startTime = Time.time;
         transform.position = spawnPosition;
         transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
     }
 }

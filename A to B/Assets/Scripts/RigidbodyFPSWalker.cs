@@ -24,7 +24,13 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		if (grounded || (!grounded && airMovement)) {
+        if (Mathf.Abs(rigid.velocity.y) < 0.2f && Mathf.Abs(rigid.velocity.y) > 0 && !grounded)
+        {
+            grounded = true;
+            if(Physics.Raycast(transform.position, Vector3.down, 3f))
+            canJump = true;
+        }
+        if (grounded || (!grounded && airMovement)) {
 			// Calculate how fast we should be moving
 			Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 			targetVelocity = transform.TransformDirection(targetVelocity);
@@ -58,10 +64,11 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		rigid.AddForce(new Vector3 (0, -gravity * rigid.mass, 0));
 
 		grounded = false;
+        
 	}
 
 	void OnCollisionStay () {
-        if (!Physics.Raycast(transform.position, Vector3.down, 2f))
+        if (!Physics.Raycast(transform.position, Vector3.down, 3f))
         {
             rigid.velocity = new Vector3(rigid.velocity.x * -1f, rigid.velocity.y, rigid.velocity.z * -1f);
         }
