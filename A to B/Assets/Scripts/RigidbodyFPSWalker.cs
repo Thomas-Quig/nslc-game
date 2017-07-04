@@ -40,10 +40,10 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 			} else {
 				targetVelocity *= speed;
 			}
-            if (Input.GetKey(KeyCode.Mouse1))
-            {
-                canJump = true;
-            }
+            //if (Input.GetKey(KeyCode.Mouse1))
+            //{
+            //    canJump = true;
+            //}
 
 			// Apply a force that attempts to reach our target velocity
 			Vector3 velocity = rigid.velocity;
