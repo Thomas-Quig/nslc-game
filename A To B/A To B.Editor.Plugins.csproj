@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{59941120-906F-BE39-9483-8A957650C900}</ProjectGuid>
+    <ProjectGuid>{0C19108B-0A72-EA2A-4785-BA6DE2C2CDB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -106,39 +106,27 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WSA.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.WSA.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Tizen.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Tizen.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="A to B.Plugins.csproj">
-      <Project>{773EA35E-FB77-41A2-B0CB-96651324C907}</Project>
-      <Name>A to B.Plugins</Name>
+    <ProjectReference Include="A To B.Plugins.csproj">
+      <Project>{3F1963E3-376E-39F1-4136-5A5B32C1A413}</Project>
+      <Name>A To B.Plugins</Name>
     </ProjectReference>
-    <ProjectReference Include="A to B.csproj">
-      <Project>{2057CB15-3C35-0A58-EFC0-02D1E2AE8C98}</Project>
-      <Name>A to B</Name>
+    <ProjectReference Include="A To B.csproj">
+      <Project>{7A2B2620-6DBF-17C8-15A4-C56FF4B21600}</Project>
+      <Name>A To B</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
