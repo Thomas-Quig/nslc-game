@@ -1,10 +1,11 @@
-﻿<Properties StartupItem="A To B.Plugins.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WorldManager.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RigidbodyFPSWalker.cs">
     <Files>
-      <File FileName="Assets\Scripts\WorldManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RigidbodyFPSWalker.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SmoothMouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AnimationManager.cs" Line="24" Column="45" />
+      <File FileName="Assets\Scripts\RigidbodyFPSWalker.cs" Line="16" Column="35" />
+      <File FileName="Assets\Scripts\FPController.cs" Line="34" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

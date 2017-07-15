@@ -11,9 +11,10 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	public float maxVelocityChange = 10.0f;
 	public bool canJump = true;
 	public float jumpHeight = 2.0f;
+	public int maxSlope = 60;
 	public bool grounded = false;
 	public bool airMovement;
-	public float shiftMultiplier;
+	public float shiftMultiplier = 2f;
 	public Rigidbody rigid;
 
 
@@ -24,12 +25,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-        if (Mathf.Abs(rigid.velocity.y) < 0.2f && Mathf.Abs(rigid.velocity.y) > 0 && !grounded)
-        {
-            grounded = true;
-            if(Physics.Raycast(transform.position, Vector3.down, 0.5f))
-            canJump = true;
-        }
+        
         if (grounded || (!grounded && airMovement)) {
 			// Calculate how fast we should be moving
 			Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -67,18 +63,18 @@ public class RigidbodyFPSWalker : MonoBehaviour {
         
 	}
 
-	void OnCollisionStay () {
-        if (!Physics.Raycast(transform.position, Vector3.down, 3f))
-        {
-            rigid.velocity = new Vector3(rigid.velocity.x * -1f, rigid.velocity.y, rigid.velocity.z * -1f);
-        }
-        else
-        {
-            grounded = true;
-            canJump = true;
-        }
+	//void OnCollisionStay () {
+        //if (!Physics.Raycast(transform.position, Vector3.down, 3f))
+        //{
+           // rigid.velocity = new Vector3(rigid.velocity.x * -1f, rigid.velocity.y, rigid.velocity.z * -1f);
+        //}
+        //else
+        //{
+            //grounded = true;
+            //canJump = true;
+        //}
 
-	}
+	//}
 
 	float CalculateJumpVerticalSpeed () {
 		// From the jump height and gravity we deduce the upwards speed 
@@ -87,6 +83,18 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 			return (Mathf.Sqrt (2 * jumpHeight * gravity * shiftMultiplier));
 		} else {
 			return Mathf.Sqrt (2 * jumpHeight * gravity);
+		}
+	}
+
+	void OnCollisionStay (Collision collision) {
+		foreach(ContactPoint contact in collision.contacts){
+
+			if (Vector3.Angle (contact.normal, Vector3.up) < maxSlope) {
+
+				grounded = true;
+				canJump = true;
+			}
+
 		}
 	}
 }

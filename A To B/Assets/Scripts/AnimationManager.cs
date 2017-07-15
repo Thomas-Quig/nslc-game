@@ -21,7 +21,7 @@ public class AnimationManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (player.GetComponent<RigidbodyFPSWalker>().grounded) {
+		if (player.GetComponent<RigidbodyFPSWalker>().canJump) {
             if (Input.GetKey(KeyCode.W))
             {
                 playAnim(run.name);
