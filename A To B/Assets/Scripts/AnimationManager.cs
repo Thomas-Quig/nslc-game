@@ -7,24 +7,37 @@ public class AnimationManager : MonoBehaviour {
     public Animation anim;
 
     public AnimationClip run;
-    public AnimationClip jump;
+    public AnimationClip sprint;
+    public AnimationClip land;
     public AnimationClip idle;
     public AnimationClip strafeLeft;
     public AnimationClip strafeRight;
-    public AnimationClip midair;
+    public AnimationClip staticAir;
+    public AnimationClip forwardAir;
     public AnimationClip runBackwards;
 
     public AnimationClip headBob;
 
     public Rigidbody player;
-	
-	// Update is called once per frame
-	void Update () {
 
-		if (player.GetComponent<RigidbodyFPSWalker>().canJump) {
+    float direction;
+
+
+    // Update is called once per frame
+    void Update () {
+        direction = transform.InverseTransformDirection(player.velocity).z;
+
+        if (player.GetComponent<RigidbodyFPSWalker>().canJump) {
             if (Input.GetKey(KeyCode.W))
             {
-                playAnim(run.name);
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    playAnim(sprint.name);
+                }
+                else
+                {
+                    playAnim(run.name);
+                }
             }
             else if (Input.GetKey(KeyCode.S))
             {
@@ -42,9 +55,16 @@ public class AnimationManager : MonoBehaviour {
             {
                 playAnim(idle.name);
             }
-        } else {
-            if (!anim.IsPlaying(jump.name)){
-                playAnim(midair.name);
+        }
+        else
+        {
+            if (direction >= 1.0f)
+            {
+                playAnim(forwardAir.name);
+            }
+            else
+            {
+                playAnim(staticAir.name);
             }
         }
     }

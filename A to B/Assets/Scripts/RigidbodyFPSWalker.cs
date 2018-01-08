@@ -17,16 +17,18 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 	public float shiftMultiplier = 2f;
 	public Rigidbody rigid;
 
+    
+
 
 	void Awake () {
 		rigid = GetComponent<Rigidbody> ();
 		rigid.freezeRotation = true;
-		rigid.useGravity = false;
+		rigid.useGravity = true;
 	}
 
 	void FixedUpdate () {
         
-        if (grounded || (!grounded && airMovement)) {
+        if (grounded /*|| (!grounded && airMovement)*/) {
 			// Calculate how fast we should be moving
 			Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 			targetVelocity = transform.TransformDirection(targetVelocity);
@@ -57,7 +59,7 @@ public class RigidbodyFPSWalker : MonoBehaviour {
 		}
 
 		// We apply gravity manually for more tuning control
-		rigid.AddForce(new Vector3 (0, -gravity * rigid.mass, 0));
+		//rigid.AddForce(new Vector3 (0, -gravity * rigid.mass, 0));
 
 		grounded = false;
         
